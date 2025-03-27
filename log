@@ -40,3 +40,13 @@ Thu, Mar 27, 2025  5:16:48 PM:
  1 file changed, 2 insertions(+), 1 deletion(-)
  tests:  0|0
 6565e38
+Thu, Mar 27, 2025  5:18:53 PM: 
+ list.c | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+In file included from test.c:5:0:
+list.c: In function 'createList':
+list.c:32:24: error: expected expression before ')' token
+     List *list = (list*)malloc(sizeof(list));
+                        ^
+Compilation failed
+8dae2f9
