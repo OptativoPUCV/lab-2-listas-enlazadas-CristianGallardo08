@@ -108,8 +108,7 @@ void pushBack(List *list, void *data)
         list->current = list->tail;
         list->current->next = new;
         new->prev = list->current;
-        list->tail = new;
-    }
+        }
 }
 
 void pushCurrent(List *list, void *data)
