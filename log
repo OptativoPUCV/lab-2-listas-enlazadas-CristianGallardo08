@@ -202,3 +202,9 @@ Thu, Mar 27, 2025  6:18:39 PM:
  tests:  9|3
 total_score: 35/70
 7a4ecc7
+ju., 27 de mar. de 2025 21:14:51: 
+ list.c | 79 +++++++++++++++++++++++++++++++++++++++++++-----------------------
+ 1 file changed, 52 insertions(+), 27 deletions(-)
+ tests:  9|3
+total_score: 35/70
+0528b27
