@@ -140,7 +140,7 @@ void *popBack(List *list)
 void *popCurrent(List *list)
 {
     if (list->current == NULL)
-        return NULL;
+        return;
 
     Node *toDelete = list->current;
 
