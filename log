@@ -288,3 +288,27 @@ list.c:176:1: error: control reaches end of non-void function [-Werror=return-ty
 cc1.exe: all warnings being treated as errors
 Compilation failed
 ec6d5f9
+sá., 29 de mar. de 2025 19:40:16: 
+ list.c | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+list.c:140:6: error: conflicting types for 'popCurrent'
+ void popCurrent(List *list)
+      ^~~~~~~~~~
+In file included from list.c:4:0,
+                 from test.c:5:
+list.h:26:8: note: previous declaration of 'popCurrent' was here
+ void * popCurrent(List * list);
+        ^~~~~~~~~~
+test.c: In function 'test_popcurrent':
+test.c:367:14: error: void value not ignored as it ought to be
+     int* k = popCurrent(L);
+              ^~~~~~~~~~
+test.c:392:6: error: void value not ignored as it ought to be
+     k=popCurrent(L);
+      ^
+test.c:419:7: error: void value not ignored as it ought to be
+     k = popCurrent(L);
+       ^
+Compilation failed
+bad82e1

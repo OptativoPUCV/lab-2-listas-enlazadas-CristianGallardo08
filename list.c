@@ -137,13 +137,12 @@ void *popBack(List *list)
     return popCurrent(list);
 }
 
-void *popCurrent(List *list)
+void popCurrent(List *list)
 {
     if (list->current == NULL)
-        return NULL;
+        return;
 
     Node *toDelete = list->current;
-    // void *data = toDelete->data;
 
     if (list->head == list->tail)
     {
