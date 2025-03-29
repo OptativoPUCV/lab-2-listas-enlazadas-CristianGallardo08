@@ -257,3 +257,9 @@ list.c:140:7: note: declared here
 cc1.exe: all warnings being treated as errors
 Compilation failed
 c3eba87
+sá., 29 de mar. de 2025 19:36:21: 
+ list.c | 12 +++++++++---
+ 1 file changed, 9 insertions(+), 3 deletions(-)
+ tests:  12|0
+total_score: 70/70
+41651b2
