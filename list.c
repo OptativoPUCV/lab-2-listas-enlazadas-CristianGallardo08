@@ -142,7 +142,7 @@ void *popCurrent(List *list)
     if (list->current == NULL)
         return NULL;
 
-    Node *toDelete = list->current;
+    Node *Elem = list->current;
 
     if (list->head == list->tail)
     {
@@ -171,7 +171,7 @@ void *popCurrent(List *list)
         list->current = list->current->next;
     }
 
-    free(toDelete);
+    free(Elem);
 }
 
 void cleanList(List *list)
