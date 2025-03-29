@@ -143,7 +143,7 @@ void *popCurrent(List *list)
         return NULL;
 
     Node *toDelete = list->current;
-    void *data = toDelete->data;
+    // void *data = toDelete->data;
 
     if (list->head == list->tail)
     {
