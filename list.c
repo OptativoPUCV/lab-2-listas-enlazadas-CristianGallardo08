@@ -173,7 +173,6 @@ void *popCurrent(List *list)
     }
 
     free(toDelete);
-    return data;
 }
 
 void cleanList(List *list)
