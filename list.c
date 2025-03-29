@@ -137,7 +137,7 @@ void *popBack(List *list)
     return popCurrent(list);
 }
 
-void popCurrent(List *list)
+void *popCurrent(List *list)
 {
     if (list->current == NULL)
         return;

@@ -312,3 +312,17 @@ test.c:419:7: error: void value not ignored as it ought to be
        ^
 Compilation failed
 bad82e1
+sá., 29 de mar. de 2025 19:42:53: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'popCurrent':
+list.c:143:9: error: 'return' with no value, in function returning non-void [-Werror]
+         return;
+         ^~~~~~
+list.c:140:7: note: declared here
+ void *popCurrent(List *list)
+       ^~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+0693fb5
